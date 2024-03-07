@@ -1,1 +1,91 @@
-/* Write your CSS here! */
+heading {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#mainHeading {
+    color: red;
+}
+
+body {
+    background: url(img/M00N.png) no repeat;
+    height: 100vh;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+main {
+    margin: 15px;
+}
+
+article {
+    margin: 15px;
+}
+
+form {
+    align-items: center;
+}
+
+.myName {
+    font-family:sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+p {
+    color:rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px, 20px;
+}
+
+/* .navbar a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+    color:rgba(209, 8, 48, 0.875);
+}
+
+.navbar li {
+    float: left;
+}
+ */
+
+
+ .funParagraph {
+    color: green;
+ }
