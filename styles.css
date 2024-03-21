@@ -62,7 +62,8 @@ h3 {
 
 
 .navbar li{
-    display: inline-block;
+    
+    display: flexbox;
     list-style: none;
     padding: 0px, 20px;
 }
